@@ -1,0 +1,13 @@
+# Broker MQTT dla trybu lokalnego. Przed pierwszym uruchomieniem utwórz użytkowników
+# (README, krok 3) – bez pliku passwd broker nie wystartuje (logowanie jest obowiązkowe).
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: parking-mosquitto
+    ports:
+      - "127.0.0.1:1883:1883"     # tylko z tego komputera; dla ESP32 w sieci LAN zmień na "1883:1883"
+      # - "8883:8883"             # TLS – po wygenerowaniu certyfikatów (README, sekcja Bezpieczeństwo)
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+    restart: unless-stopped

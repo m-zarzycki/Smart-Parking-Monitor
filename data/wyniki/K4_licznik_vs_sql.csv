@@ -1,0 +1,36 @@
+scenariusz,punkt,czas_lokalny,tablica_A,tablica_B,tablica_C,sql_wolne_A,sql_wolne_B,sql_wolne_C,aktywne_alerty,wynik
+1,kontrola K4 t=30 s,08:59:30,3,5,7,3,5,7,0,OK
+1,08:59:59 – przed zmianą,08:59:59,3,5,7,3,5,7,0,OK
+1,kontrola K4 t=60 s,09:00:00,3,5,7,3,5,7,0,OK
+1,09:00:08 – po ZMIANA B03,09:00:08,3,4,7,3,4,7,0,OK
+1,kontrola K4 t=90 s,09:00:30,3,4,7,3,4,7,0,OK
+1,kontrola K4 t=120 s,09:01:00,3,4,7,3,4,7,0,OK
+1,09:01:05 – po heartbeat B03,09:01:05,3,4,7,3,4,7,0,OK
+2,kontrola K4 t=30 s,08:39:30,1,4,5,1,4,5,0,OK
+2,08:39:59 – stan początkowy,08:39:59,1,4,7,1,4,7,0,OK
+2,kontrola K4 t=60 s,08:40:00,1,4,7,1,4,7,0,OK
+2,08:40:08 – A06 zajęte,08:40:08,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=90 s,08:40:30,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=120 s,08:41:00,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=150 s,08:41:30,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=180 s,08:42:00,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=210 s,08:42:30,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=240 s,08:43:00,PEŁNA,4,7,0,4,7,0,OK
+2,kontrola K4 t=270 s,08:43:30,PEŁNA,4,7,0,4,7,0,OK
+2,09:09:00 – strefa A pełna,09:09:00,PEŁNA,4,7,0,4,7,0,OK
+2,09:30:08 – A02 wolne,09:30:08,1,4,7,1,4,7,0,OK
+3,kontrola K4 t=30 s,10:59:30,3,3,7,3,3,7,0,OK
+3,10:59:59 – stan początkowy,10:59:59,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=60 s,11:00:00,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=90 s,11:00:30,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=120 s,11:01:00,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=150 s,11:01:30,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=180 s,11:02:00,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=210 s,11:02:30,3,4,7,3,4,7,0,OK
+3,11:02:55 – jeszcze przed limitem 3 min,11:02:55,3,4,7,3,4,7,0,OK
+3,kontrola K4 t=240 s,11:03:00,3,4,7,3,4,7,0,OK
+3,11:03:15 – po kontroli: BRAK DANYCH,11:03:15,3,4,6,3,4,6,1,OK
+3,kontrola K4 t=270 s,11:03:30,3,4,6,3,4,6,1,OK
+3,11:10:00 – nadal jeden alert,11:10:00,3,4,6,3,4,6,1,OK
+3,tuż przed powrotem – jeden alert,11:19:55,3,4,6,3,4,6,1,OK
+3,po heartbeat C05 – alert zamknięty,11:20:05,3,4,7,3,4,7,0,OK

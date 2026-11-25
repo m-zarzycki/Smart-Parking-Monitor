@@ -1,0 +1,3 @@
+# Tylko dla trybu Azure (Azure SQL z laptopa, symulator -> IoT Hub)
+pyodbc>=5.0
+azure-iot-device>=2.12

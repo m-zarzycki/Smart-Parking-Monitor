@@ -1,0 +1,12 @@
+# Uprawnienia do tematów (zasada najmniejszych uprawnień). Bez haseł – hasła są w pliku passwd.
+
+# Symulator (bramka 90 czujników) – tylko publikacja komunikatów z miejsc
+user czujniki
+topic write parking/+/+
+
+# Odbiornik (backend) – tylko odczyt
+user odbiornik
+topic read parking/+/+
+
+# Fizyczny czujnik: login = identyfikator miejsca (np. B03) – zapis wyłącznie na własny temat
+pattern write parking/+/%u

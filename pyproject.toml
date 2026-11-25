@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parking-grupa2"
+version = "1.0.0"
+description = "System monitorowania zajętości miejsc parkingowych – IoT i Cloud Computing, CDV, Grupa 2"
+requires-python = ">=3.10"
+dependencies = ["flask>=3.0", "paho-mqtt>=2.0"]
+
+[project.optional-dependencies]
+azure = ["pyodbc>=5.0", "azure-iot-device>=2.12"]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+parking = ["sql/*.sql", "web/templates/*.html", "web/static/*"]

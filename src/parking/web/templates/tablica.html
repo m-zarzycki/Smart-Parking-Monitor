@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Tablica – wolne miejsca{% endblock %}
+{% block body_class %}dark{% endblock %}
+{% block content %}
+<section class="board" aria-live="polite">
+  <h1>WOLNE MIEJSCA</h1>
+  <div class="board-rows">
+    <div class="board-row" data-zone="A"><span class="zone">A</span><span class="desc">przy wjeździe</span><span class="value" id="board-A">…</span></div>
+    <div class="board-row" data-zone="B"><span class="zone">B</span><span class="desc">za budynkiem</span><span class="value" id="board-B">…</span></div>
+    <div class="board-row" data-zone="C"><span class="zone">C</span><span class="desc">najdalej od wjazdu</span><span class="value" id="board-C">…</span></div>
+  </div>
+  <p class="updated">Aktualizacja: <span id="updated">–</span></p>
+  <p class="stale" id="stale" hidden>Brak połączenia z serwerem – pokazane dane mogą być nieaktualne.</p>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='stan.js') }}"></script>{% endblock %}

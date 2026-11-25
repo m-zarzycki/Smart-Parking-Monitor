@@ -1,0 +1,10 @@
+przypadek,wynik,powod,stan_B03_po
+poprawny komunikat,zmiana,,ZAJĘTE
+nieznane miejsce,odrzucony,nieznane_miejsce,ZAJĘTE
+strefa niezgodna,odrzucony,strefa_niezgodna,ZAJĘTE
+stan spoza listy,odrzucony,niepoprawny_stan,ZAJĘTE
+brak czasu,odrzucony,brak_czasu,ZAJĘTE
+czas 5 min w przyszłości,odrzucony,czas_w_przyszlosci,ZAJĘTE
+odległość 900 cm,odrzucony,odleglosc_poza_zakresem,ZAJĘTE
+temat innego miejsca,odrzucony,temat_niezgodny,ZAJĘTE
+niepoprawny JSON,odrzucony,niepoprawny_json,ZAJĘTE

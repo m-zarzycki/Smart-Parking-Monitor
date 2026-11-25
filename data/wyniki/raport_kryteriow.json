@@ -1,0 +1,43 @@
+{
+  "scenariusze": {
+    "1": {
+      "tytul": "Scenariusz 1 – zwykła praca",
+      "wynik": "OK"
+    },
+    "2": {
+      "tytul": "Scenariusz 2 – strefa A się zapełnia",
+      "wynik": "OK"
+    },
+    "3": {
+      "tytul": "Scenariusz 3 – awaria czujnika",
+      "wynik": "OK"
+    },
+    "4": {
+      "tytul": "Scenariusz dodatkowy – krótkie wykrycie",
+      "wynik": "OK"
+    }
+  },
+  "kryteria": {
+    "K1": {
+      "wynik": "SPEŁNIONE",
+      "opis": "20 z 20 komunikatów ZMIANA zapisanych"
+    },
+    "K2": {
+      "wynik": "SPEŁNIONE",
+      "opis": "10 z 10 zmian widocznych ≤ 5 s (śr. 1.09 s, maks. 1.93 s, odpytywanie co 2 s)"
+    },
+    "K3": {
+      "wynik": "SPEŁNIONE",
+      "opis": "10 wykryć 1–2,5 s: 0 ZMIANA, 0 nowych wpisów"
+    },
+    "K4": {
+      "wynik": "SPEŁNIONE",
+      "opis": "35 z 35 punktów kontrolnych zgodnych"
+    },
+    "K5": {
+      "wynik": "SPEŁNIONE",
+      "opis": "5 przebiegów: zawsze 1 alert, opóźnienie 180.3–189.8 s (limit 190 s), alert zamknięty przez pierwszy komunikat"
+    }
+  },
+  "walidacja": "8 z 8 błędnych odrzuconych"
+}

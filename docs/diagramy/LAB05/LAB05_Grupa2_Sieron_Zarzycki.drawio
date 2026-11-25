@@ -1,0 +1,357 @@
+<mxfile host="app.diagrams.net" agent="LAB05 generator" version="24.7.17" type="device">
+  <diagram id="kontekst" name="1_Kontekst">
+    <mxGraphModel dx="1200" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kontekst_title" value="&lt;b&gt;1. Kontekst systemu&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="24" y="14" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_sub" value="System monitorowania zajętości miejsc parkingowych przy budynku uczelni&lt;br&gt;Grupa 2 • Radosław Sieroń, Michał Zarzycki • 24.11.2026 • status: projekt docelowy, wszystkie elementy planowane" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=11;fontColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="24" y="46" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_lg" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="792" y="10" width="374" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_lgt" value="&lt;b&gt;Legenda statusu&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="12" width="160" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_lg0" value="planowane" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="34" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_lg1" value="wdrożone" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#d5e8d4;strokeColor=#5b8f45;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="34" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_lg2" value="krok ręczny" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#fff2cc;strokeColor=#b8962e;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="60" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_lg3" value="odrzucenie / błąd" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="60" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="k_sys" value="&lt;b style='font-size:13px'&gt;SYSTEM MONITOROWANIA ZAJĘTOŚCI&lt;br&gt;MIEJSC PARKINGOWYCH&lt;/b&gt;&lt;br&gt;&lt;br&gt;Liczniki wolnych miejsc w strefach A, B, C&lt;br&gt;(tablica przy wjeździe), mapa 90 miejsc,&lt;br&gt;historia obłożenia i alerty o braku danych&lt;br&gt;&lt;br&gt;&lt;i&gt;W granicy: czujniki z ESP32 (w prototypie&lt;br&gt;symulator), chmura Azure, aplikacja webowa&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;strokeWidth=3;fontSize=11.5;" vertex="1" parent="1">
+          <mxGeometry x="385" y="150" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="k_veh" value="&lt;b&gt;Pojazd na miejscu parkingowym&lt;/b&gt;&lt;br&gt;(90 miejsc w strefach A, B, C)&lt;br&gt;&lt;i&gt;obiekt mierzony przez czujnik&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k_drv" value="&lt;b&gt;Kierowca&lt;/b&gt;&lt;br&gt;główny użytkownik&lt;br&gt;(studenci, pracownicy, goście)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="935" y="150" width="205" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="k_mgr" value="&lt;b&gt;Zarządca parkingu&lt;/b&gt;&lt;br&gt;rola dodatkowa&lt;br&gt;(konto z logowaniem)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="935" y="350" width="205" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_e1" value="obecność pojazdu&lt;br&gt;(odległość od&lt;br&gt;czujnika, cm)" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k_veh" target="k_sys">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_e2" value="otwiera mapę&lt;br&gt;(strona WWW, bez logowania)" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.2;exitDx=0;exitDy=0;entryX=1;entryY=0.0788;entryDx=0;entryDy=0;" edge="1" parent="1" source="k_drv" target="k_sys">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_e3" value="wolne miejsca w strefach A/B/C&lt;br&gt;(liczba / PEŁNA / BRAK DANYCH),&lt;br&gt;mapa, czas aktualizacji" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.3152;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="k_sys" target="k_drv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_e4" value="logowanie, żądanie historii,&lt;br&gt;potwierdzenie alertu" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.2;exitDx=0;exitDy=0;entryX=1;entryY=0.6848;entryDx=0;entryDy=0;" edge="1" parent="1" source="k_mgr" target="k_sys">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kontekst_e5" value="alert o braku danych z czujnika,&lt;br&gt;historia obłożenia stref (7 dni)" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.9212;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="k_sys" target="k_mgr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_scope" value="&lt;b&gt;System obejmuje&lt;/b&gt; czujniki z ESP32 (w prototypie symulator 90 miejsc), odbiór i zapis danych w chmurze Azure, liczniki wolnych miejsc w strefach na tablicy przy wjeździe (w prototypie widok w panelu), mapę w aplikacji webowej oraz alerty o braku danych dla zarządcy.&lt;br&gt;&lt;br&gt;&lt;b&gt;Poza zakresem pozostaje:&lt;/b&gt; rezerwacje i płatności, rozpoznawanie tablic rejestracyjnych, nawigacja do konkretnego miejsca, obsługa wielu parkingów, fizyczny montaż i zasilanie czujników." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="30" y="525" width="1110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k_dec" value="&lt;b&gt;Decyzja o granicy:&lt;/b&gt; czujniki i ESP32 są częścią rozwiązania, bo to my ustalamy regułę 3 s i format komunikatu. Dlatego leżą wewnątrz granicy systemu, a w prototypie zastępuje je symulator. Azure to platforma, na której działa system; jego usługi pokazuje strona 2_Architektura. Kierowca i zarządca wynikają z karty LAB02 (cz. 4), a pojazd jest zjawiskiem, które system mierzy." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="1110" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="k_foot" value="Każda strzałka pokazuje kierunek przekazania informacji. Na kontekście nie podajemy jeszcze usług ani protokołów (strona 2)." style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="30" y="690" width="1110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="architektura" name="2_Architektura">
+    <mxGraphModel dx="1200" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="architektura_title" value="&lt;b&gt;2. Architektura techniczna&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="24" y="14" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_sub" value="System monitorowania zajętości miejsc parkingowych przy budynku uczelni&lt;br&gt;Grupa 2 • Radosław Sieroń, Michał Zarzycki • 24.11.2026 • status: projekt docelowy, wszystkie komponenty planowane" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=11;fontColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="24" y="46" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_lg" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="792" y="10" width="374" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_lgt" value="&lt;b&gt;Legenda statusu&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="12" width="160" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_lg0" value="planowane" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="34" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_lg1" value="wdrożone" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#d5e8d4;strokeColor=#5b8f45;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="34" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_lg2" value="krok ręczny" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#fff2cc;strokeColor=#b8962e;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="60" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_lg3" value="odrzucenie / błąd" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="60" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="a_lf" value="PARKING / KOMPUTER ZESPOŁU" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=none;strokeColor=#7a7a7a;strokeWidth=1.2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=2;fontSize=11;fontStyle=1;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="18" y="100" width="214" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="a_cf" value="CHMURA AZURE (Azure for Students) • baza bez publicznego dostępu" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=none;strokeColor=#7a7a7a;strokeWidth=1.2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=2;fontSize=11;fontStyle=1;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="252" y="100" width="900" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="a_bf" value="PRZEGLĄDARKA UŻYTKOWNIKA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=none;strokeColor=#7a7a7a;strokeWidth=1.2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=2;fontSize=11;fontStyle=1;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="692" y="600" width="460" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="a_sim" value="&lt;b&gt;Symulator czujników&lt;/b&gt; (Python)&lt;br&gt;F01: komunikaty ZMIANA i HEARTBEAT dla 90 miejsc, reguła 3 s, heartbeat co 60 s&lt;br&gt;&lt;i&gt;start ręczny przed testem&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="32" y="135" width="186" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="a_esp" value="&lt;b&gt;Czujnik ultradźwiękowy + ESP32&lt;/b&gt;&lt;br&gt;&lt;i&gt;docelowo zamiast symulatora&lt;/i&gt;&lt;br&gt;F01: pomiar co 0,5 s, zatwierdzenie stanu po 3 s" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f1f5fb;strokeColor=#7d9cc7;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="32" y="300" width="186" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hub" value="&lt;b&gt;Azure IoT Hub&lt;/b&gt; (Free F1)&lt;br&gt;F02: przyjmuje komunikaty,&lt;br&gt;rejestr tożsamości urządzeń" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="195" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a_rcv" value="&lt;b&gt;Funkcja Odbiornik&lt;/b&gt;&lt;br&gt;(Azure Functions, wyzwalacz IoT Hub)&lt;br&gt;F02: waliduje rekord, porównuje stan z bazą, zapisuje" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a_lim" value="&lt;b&gt;Ograniczenie:&lt;/b&gt; IoT Hub Free = 8 000 komunikatów na dobę. 90 miejsc × heartbeat co 60 s to ok. 130 000 na dobę, więc w F1 mieszczą się tylko krótkie testy (ok. 1,5 h). Praca ciągła wymaga warstwy B1 lub S1 (400 000 na dobę)." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="905" y="135" width="235" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="a_chk" value="&lt;b&gt;Funkcja Kontrola braku danych&lt;/b&gt;&lt;br&gt;(Azure Functions, timer co 10 s)&lt;br&gt;F05: czyta czas ostatniego komunikatu; po &gt; 3 min: BRAK DANYCH + 1 alert" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="395" width="225" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="a_sql" value="&lt;b&gt;Azure SQL Database&lt;/b&gt;&lt;br&gt;F02: tabele Miejsca, Historia zmian, Alerty, Odrzucone komunikaty" style="shape=cylinder;boundedLbl=1;backgroundOutline=1;size=12;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="395" width="200" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="a_app" value="&lt;b&gt;Aplikacja webowa + API&lt;/b&gt;&lt;br&gt;(Azure App Service)&lt;br&gt;F03: liczniki stref (widok tablicy)&lt;br&gt;F04: mapa 90 miejsc&lt;br&gt;F05: alerty, historia 7 dni" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="960" y="395" width="185" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="a_drb" value="&lt;b&gt;Kierowca&lt;/b&gt;: widok tablicy przy wjeździe i mapa&lt;br&gt;&lt;i&gt;tylko odczyt, bez logowania&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="705" y="692" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="a_mgb" value="&lt;b&gt;Zarządca parkingu&lt;/b&gt;: panel&lt;br&gt;&lt;i&gt;konto zarządcy (logowanie, rola)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="940" y="692" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e1" value="JSON / MQTT&lt;br&gt;przez TLS (8883)&lt;br&gt;tożsamość&lt;br&gt;urządzenia" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.4444;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_sim" target="a_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e2" value="to samo&lt;br&gt;połączenie&lt;br&gt;(docelowo)" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;dashed=1;dashPattern=5 4;strokeColor=#7d9cc7;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_esp" target="a_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e3" value="zdarzenie z wbudowanego&lt;br&gt;punktu końcowego&lt;br&gt;(zgodny z Event Hubs)" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_hub" target="a_rcv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e4" value="&lt;b&gt;zapis&lt;/b&gt; poprawnego rekordu:&lt;br&gt;Miejsca, Historia zmian;&lt;br&gt;odrzuconego: Odrzucone komunikaty&lt;br&gt;&lt;i&gt;tożsamość zarządzana funkcji&lt;/i&gt;" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;strokeWidth=2.6;strokeColor=#1f3f73;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_rcv" target="a_sql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e5" value="zapis BRAK DANYCH&lt;br&gt;i alertu (co 10 s)&lt;br&gt;&lt;i&gt;tożsamość zarządzana&lt;/i&gt;" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_chk" target="a_sql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e6" value="odczyt stanu,&lt;br&gt;historii, alertów&lt;br&gt;&lt;i&gt;tożsamość&lt;br&gt;zarządzana&lt;/i&gt;" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_sql" target="a_app">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="architektura_e7" value="HTTPS / JSON co 2 s:&lt;br&gt;liczniki A/B/C, mapa" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.081;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_app" target="a_drb">
+          <mxGeometry relative="1" as="geometry" x="0.29">
+            <Array as="points">
+              <mxPoint x="975" y="652" />
+              <mxPoint x="855" y="652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="architektura_e8" value="HTTPS + konto:&lt;br&gt;logowanie, historia,&lt;br&gt;potwierdzenie alertu" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.55;exitY=0;exitDx=0;exitDy=0;entryX=0.4865;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_mgb" target="a_app">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="architektura_e9" value="alerty,&lt;br&gt;historia 7 dni" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.87;exitY=1;exitDx=0;exitDy=0;entryX=0.905;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a_app" target="a_mgb">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_fn" value="&lt;b&gt;Funkcje (karta LAB02, cz. 5)&lt;/b&gt;&lt;br&gt;F01 wykrywanie zajętości z filtrem 3 s&lt;br&gt;F02 zapis stanu i historii zmian&lt;br&gt;F03 licznik wolnych miejsc w strefie&lt;br&gt;F04 mapa parkingu w aplikacji&lt;br&gt;F05 alert o braku sygnału, historia" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="18" y="566" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a_sec" value="&lt;b&gt;Kontrola dostępu&lt;/b&gt;&lt;br&gt;• urządzenie → IoT Hub: tożsamość urządzenia w rejestrze IoT Hub&lt;br&gt;• funkcje i aplikacja → baza: tożsamość zarządzana, bez haseł w kodzie&lt;br&gt;• zarządca: logowanie na konto z rolą; kierowca: tylko odczyt" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="566" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a_foot" value="Strzałki pokazują kierunek głównej operacji i nie są dowodem wdrożenia. Klucze urządzeń, hasła i connection strings są poza repozytorium i poza diagramem (ustawienia aplikacji / Azure Key Vault)." style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="18" y="676" width="662" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="przeplyw" name="3_Przeplyw_danych">
+    <mxGraphModel dx="1200" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="przeplyw_title" value="&lt;b&gt;3. Przepływ jednego pomiaru&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="24" y="14" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_sub" value="System monitorowania zajętości miejsc parkingowych przy budynku uczelni&lt;br&gt;Grupa 2 • Radosław Sieroń, Michał Zarzycki • 24.11.2026 • prostokąt = czynność, romb = decyzja • ZAJĘTE &amp;lt; 150 cm, WOLNE ≥ 200 cm (3 s)" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=11;fontColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="24" y="46" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_lg" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="792" y="10" width="374" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_lgt" value="&lt;b&gt;Legenda statusu&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="12" width="160" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_lg0" value="planowane" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="34" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_lg1" value="wdrożone" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#d5e8d4;strokeColor=#5b8f45;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="34" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_lg2" value="krok ręczny" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#fff2cc;strokeColor=#b8962e;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="60" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_lg3" value="odrzucenie / błąd" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;spacing=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="60" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="d_s1" value="&lt;b&gt;1. Pomiar&lt;/b&gt;&lt;br&gt;czujnik + ESP32 lub symulator: odległość co 0,5 s [cm]" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="112" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="d_d1" value="Stan stabilny&lt;br&gt;przez 3 s i inny&lt;br&gt;niż poprzedni?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;spacing=2;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="95" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_n1" value="Brak komunikatu ZMIANA; co 60 s idzie heartbeat z bieżącym stanem (krok 2, HEARTBEAT)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f1f5fb;strokeColor=#7d9cc7;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="232" width="150" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="d_s2" value="&lt;b&gt;2. Wyślij komunikat&lt;/b&gt;&lt;br&gt;symulator / ESP32: JSON, czas UTC" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="420" y="112" width="145" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="d_s3" value="&lt;b&gt;3. Transmisja i odbiór&lt;/b&gt;&lt;br&gt;MQTT/TLS → Azure IoT Hub → funkcja Odbiornik" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="615" y="112" width="165" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="d_d2" value="&lt;b&gt;Dane&lt;br&gt;poprawne?&lt;/b&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;spacing=2;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="830" y="95" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r1" value="&lt;b&gt;Odrzuć rekord&lt;/b&gt;&lt;br&gt;Odbiornik: wpis w Odrzucone komunikaty (powód, czas odebrania); stan i licznik bez zmian" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="100" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d_d3" value="Stan inny niż&lt;br&gt;w tabeli&lt;br&gt;Miejsca?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;spacing=2;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="830" y="330" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_r2" value="Odbiornik: aktualizuj tylko czas ostatniego komunikatu" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#f1f5fb;strokeColor=#7d9cc7;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="355" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d_s4" value="&lt;b&gt;4. Zapisz zmianę&lt;/b&gt;&lt;br&gt;Odbiornik → Azure SQL: Miejsca + Historia zmian (czas zdarzenia i odebrania); zamknij aktywny alert" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="615" y="335" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d_s5" value="&lt;b&gt;5. Przelicz licznik&lt;/b&gt;&lt;br&gt;Aplikacja webowa + API: liczba miejsc WOLNE w strefie" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="420" y="347" width="145" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="d_d4" value="Licznik&lt;br&gt;strefy = 0?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;spacing=2;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_6a" value="&lt;b&gt;6A. Pokaż liczbę wolnych&lt;/b&gt;&lt;br&gt;tablica + mapa (≤ 5 s od odebrania)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="347" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="d_d5" value="Są w strefie&lt;br&gt;miejsca BRAK&lt;br&gt;DANYCH?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;spacing=2;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="478" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d_6c" value="&lt;b&gt;6C. Pokaż BRAK DANYCH&lt;/b&gt;&lt;br&gt;zamiast PEŁNA" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="503" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d_6b" value="&lt;b&gt;6B. Pokaż PEŁNA&lt;/b&gt;&lt;br&gt;(wszystkie miejsca strefy ZAJĘTE)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="420" y="498" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e1" value="odczyt" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_s1" target="d_d1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="przeplyw_e2" value="NIE" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d1" target="d_n1">
+          <mxGeometry relative="1" as="geometry" x="-0.5">
+            <Array as="points">
+              <mxPoint x="295" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="przeplyw_e3" value="TAK" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d1" target="d_s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e4" value="JSON" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_s2" target="d_s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e5" value="rekord" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_s3" target="d_d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e6" value="NIE" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d2" target="d_r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e7" value="TAK" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d2" target="d_d3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e8" value="NIE" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d3" target="d_r2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e9" value="TAK" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d3" target="d_s4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e10" value="stan" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_s4" target="d_s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e11" value="licznik" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_s5" target="d_d4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="przeplyw_e12" value="NIE" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d4" target="d_6a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e13" value="TAK" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d4" target="d_d5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e14" value="TAK" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d5" target="d_6c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e15" value="NIE" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_d5" target="d_6b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_lane" value="Alarm F05: kontrola braku danych (funkcja Kontrola, co 10 s, niezależnie od rekordów)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=none;strokeColor=#7a7a7a;strokeWidth=1.2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=2;fontSize=11;fontStyle=1;fontColor=#4a4a4a;" vertex="1" parent="1">
+          <mxGeometry x="600" y="470" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="d_k1" value="&lt;b&gt;K1. Kontrola&lt;/b&gt;&lt;br&gt;czas od ostatniego komunikatu (wg czasu odebrania w chmurze)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="615" y="510" width="140" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="d_dk" value="&amp;gt; 3 min bez&lt;br&gt;komunikatu?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#ffffff;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;spacing=2;fontSize=10.5;" vertex="1" parent="1">
+          <mxGeometry x="800" y="495" width="140" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="d_k2" value="&lt;b&gt;K2. BRAK DANYCH&lt;/b&gt;&lt;br&gt;stan + wpis w historii; 1 alert (jeśli brak aktywnego); miejsce szare, nie liczy się jako wolne" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#dae8fc;strokeColor=#3d6aa8;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="985" y="495" width="155" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="d_k3" value="&lt;b&gt;K3. Zarządca&lt;/b&gt; widzi alert w panelu, potwierdza go i zleca naprawę czujnika &lt;i&gt;(krok ręczny)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=11;align=center;verticalAlign=middle;spacing=6;fillColor=#fff2cc;strokeColor=#b8962e;dashed=1;dashPattern=6 3;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="985" y="635" width="155" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e16" value="czas" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_k1" target="d_dk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e17" value="TAK" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_dk" target="d_k2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="przeplyw_e18" value="NIE: kolejna kontrola za 10 s" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_dk" target="d_k1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="650" />
+              <mxPoint x="685" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="przeplyw_e19" value="alert" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;endSize=7;strokeColor=#333333;strokeWidth=1.3;fontFamily=Helvetica;fontColor=#1a1a1a;fontSize=10;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_k2" target="d_k3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_sit" value="&lt;table style='border-collapse:collapse;width:100%;font-size:10px' border='1' cellpadding='3'&gt;&lt;tr style='background:#e8eef7'&gt;&lt;th style='width:24%'&gt;Sytuacja&lt;/th&gt;&lt;th&gt;Co się dzieje&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Prawidłowy rekord&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Odbiornik zapisuje go w Azure SQL (Miejsca, Historia zmian); kierowca widzi nowy licznik na tablicy i mapie w ciągu 5 s.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Błędna wartość lub brak czasu&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Odbiornik odrzuca rekord i zapisuje go w Odrzucone komunikaty z powodem; stan miejsca i licznik bez zmian.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Brak połączenia / nowych danych&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Bufor na ESP32 nie jest założony (ograniczenie prototypu). Po 3 min: BRAK DANYCH, szare miejsce, 1 alert; mapa pokazuje czas ostatniej aktualizacji. Po powrocie sieci heartbeat (≤ 60 s) przywraca stan i zamyka alert.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontColor=#1a1a1a;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=2;fontSize=11;fontSize=10;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="615" width="565" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="d_rec" value="&lt;b&gt;Przykład rekordu (krok 2, scenariusz 1 z LAB02):&lt;/b&gt;&lt;br&gt;&lt;font face='Courier New'&gt;{&quot;spot_id&quot;:&quot;B03&quot;, &quot;zone&quot;:&quot;B&quot;, &quot;state&quot;:&quot;ZAJĘTE&quot;, &quot;distance_cm&quot;:60,&lt;br&gt;&amp;nbsp;&quot;msg_type&quot;:&quot;ZMIANA&quot;, &quot;event_time_utc&quot;:&quot;2026-11-24T08:00:03Z&quot;}&lt;/font&gt;&amp;nbsp;&amp;nbsp;(09:00:03 czasu lokalnego)&lt;br&gt;&lt;b&gt;Rekord błędny:&lt;/b&gt; spot_id spoza A01–C30, zone niezgodna z miejscem, state inny niż ZAJĘTE/WOLNE, msg_type inny niż ZMIANA/HEARTBEAT, brak event_time_utc lub czas &amp;gt; 1 min w przyszłości, distance_cm &amp;lt; 0 lub &amp;gt; 450." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#1a1a1a;fillColor=#f7f7f7;strokeColor=#bdbdbd;align=left;verticalAlign=top;spacing=6;fontSize=10.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="712" width="550" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

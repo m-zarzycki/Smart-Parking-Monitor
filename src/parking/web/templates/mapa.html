@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Mapa parkingu{% endblock %}
+{% block content %}
+<section class="map-head">
+  <h1>Mapa parkingu</h1>
+  <ul class="legend">
+    <li><span class="sw st-wolne"></span>wolne</li>
+    <li><span class="sw st-zajete"></span>zajęte</li>
+    <li><span class="sw st-brak"></span>brak danych</li>
+  </ul>
+  <p class="updated">Aktualizacja: <span id="updated">–</span>
+    <span class="stale" id="stale" hidden> • brak połączenia z serwerem – dane mogą być nieaktualne</span></p>
+</section>
+<div class="entrance">⬇ Wjazd</div>
+<section class="zones">
+  {% for z in zones %}
+  <div class="zone-card">
+    <h2>Strefa {{ z }} <small>{{ descriptions[z] }}</small></h2>
+    <p class="zone-count">Wolne: <strong id="board-{{ z }}">…</strong></p>
+    <div class="spots">
+      {% for s in spots if s[0] == z %}
+      <div class="spot st-brak" id="spot-{{ s }}" title="{{ s }}"><span class="sid">{{ s }}</span><span class="sst">–</span></div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+<section class="measure" id="measure" hidden>
+  <h2>Pomiar K2 (czas od odebrania w chmurze do pobrania przez widok)</h2>
+  <p>Zmian: <span id="k2-n">0</span> • średnio: <span id="k2-avg">–</span> s • maks.: <span id="k2-max">–</span> s • ≤ 5 s: <span id="k2-ok">–</span></p>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='stan.js') }}"></script>{% endblock %}

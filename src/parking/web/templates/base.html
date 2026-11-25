@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Parking uczelni{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  <header class="top">
+    <span class="brand">Parking przy budynku uczelni</span>
+    <nav>
+      <a href="{{ url_for('tablica') }}" {% if request.endpoint == 'tablica' %}aria-current="page"{% endif %}>Tablica</a>
+      <a href="{{ url_for('mapa') }}" {% if request.endpoint == 'mapa' %}aria-current="page"{% endif %}>Mapa</a>
+      <a href="{{ url_for('panel') }}" {% if request.endpoint == 'panel' %}aria-current="page"{% endif %}>Panel zarządcy</a>
+      {% if session.get('login') %}
+      <form method="post" action="{{ url_for('logout') }}" class="inline">
+        <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+        <button type="submit" class="link">Wyloguj ({{ session.get('login') }})</button>
+      </form>
+      {% endif %}
+    </nav>
+  </header>
+  <main>
+    {% with messages = get_flashed_messages() %}
+      {% for m in messages %}<p class="flash">{{ m }}</p>{% endfor %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+  <footer>Grupa 2 • Radosław Sieroń, Michał Zarzycki • prototyp z symulatorem czujników • IoT i Cloud Computing, CDV</footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

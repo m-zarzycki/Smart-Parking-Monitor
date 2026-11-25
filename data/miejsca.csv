@@ -1,0 +1,91 @@
+spot_id,strefa,opis_strefy,temat_mqtt,czujnik,id_urzadzenia_iot_hub
+A01,A,przy wjeździe,parking/A/A01,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A01
+A02,A,przy wjeździe,parking/A/A02,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A02
+A03,A,przy wjeździe,parking/A/A03,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A03
+A04,A,przy wjeździe,parking/A/A04,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A04
+A05,A,przy wjeździe,parking/A/A05,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A05
+A06,A,przy wjeździe,parking/A/A06,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A06
+A07,A,przy wjeździe,parking/A/A07,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A07
+A08,A,przy wjeździe,parking/A/A08,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A08
+A09,A,przy wjeździe,parking/A/A09,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A09
+A10,A,przy wjeździe,parking/A/A10,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A10
+A11,A,przy wjeździe,parking/A/A11,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A11
+A12,A,przy wjeździe,parking/A/A12,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A12
+A13,A,przy wjeździe,parking/A/A13,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A13
+A14,A,przy wjeździe,parking/A/A14,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A14
+A15,A,przy wjeździe,parking/A/A15,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A15
+A16,A,przy wjeździe,parking/A/A16,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A16
+A17,A,przy wjeździe,parking/A/A17,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A17
+A18,A,przy wjeździe,parking/A/A18,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A18
+A19,A,przy wjeździe,parking/A/A19,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A19
+A20,A,przy wjeździe,parking/A/A20,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A20
+A21,A,przy wjeździe,parking/A/A21,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A21
+A22,A,przy wjeździe,parking/A/A22,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A22
+A23,A,przy wjeździe,parking/A/A23,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A23
+A24,A,przy wjeździe,parking/A/A24,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A24
+A25,A,przy wjeździe,parking/A/A25,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A25
+A26,A,przy wjeździe,parking/A/A26,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A26
+A27,A,przy wjeździe,parking/A/A27,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A27
+A28,A,przy wjeździe,parking/A/A28,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A28
+A29,A,przy wjeździe,parking/A/A29,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A29
+A30,A,przy wjeździe,parking/A/A30,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-A30
+B01,B,za budynkiem,parking/B/B01,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B01
+B02,B,za budynkiem,parking/B/B02,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B02
+B03,B,za budynkiem,parking/B/B03,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B03
+B04,B,za budynkiem,parking/B/B04,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B04
+B05,B,za budynkiem,parking/B/B05,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B05
+B06,B,za budynkiem,parking/B/B06,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B06
+B07,B,za budynkiem,parking/B/B07,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B07
+B08,B,za budynkiem,parking/B/B08,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B08
+B09,B,za budynkiem,parking/B/B09,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B09
+B10,B,za budynkiem,parking/B/B10,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B10
+B11,B,za budynkiem,parking/B/B11,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B11
+B12,B,za budynkiem,parking/B/B12,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B12
+B13,B,za budynkiem,parking/B/B13,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B13
+B14,B,za budynkiem,parking/B/B14,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B14
+B15,B,za budynkiem,parking/B/B15,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B15
+B16,B,za budynkiem,parking/B/B16,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B16
+B17,B,za budynkiem,parking/B/B17,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B17
+B18,B,za budynkiem,parking/B/B18,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B18
+B19,B,za budynkiem,parking/B/B19,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B19
+B20,B,za budynkiem,parking/B/B20,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B20
+B21,B,za budynkiem,parking/B/B21,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B21
+B22,B,za budynkiem,parking/B/B22,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B22
+B23,B,za budynkiem,parking/B/B23,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B23
+B24,B,za budynkiem,parking/B/B24,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B24
+B25,B,za budynkiem,parking/B/B25,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B25
+B26,B,za budynkiem,parking/B/B26,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B26
+B27,B,za budynkiem,parking/B/B27,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B27
+B28,B,za budynkiem,parking/B/B28,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B28
+B29,B,za budynkiem,parking/B/B29,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B29
+B30,B,za budynkiem,parking/B/B30,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-B30
+C01,C,najdalej od wjazdu,parking/C/C01,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C01
+C02,C,najdalej od wjazdu,parking/C/C02,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C02
+C03,C,najdalej od wjazdu,parking/C/C03,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C03
+C04,C,najdalej od wjazdu,parking/C/C04,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C04
+C05,C,najdalej od wjazdu,parking/C/C05,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C05
+C06,C,najdalej od wjazdu,parking/C/C06,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C06
+C07,C,najdalej od wjazdu,parking/C/C07,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C07
+C08,C,najdalej od wjazdu,parking/C/C08,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C08
+C09,C,najdalej od wjazdu,parking/C/C09,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C09
+C10,C,najdalej od wjazdu,parking/C/C10,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C10
+C11,C,najdalej od wjazdu,parking/C/C11,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C11
+C12,C,najdalej od wjazdu,parking/C/C12,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C12
+C13,C,najdalej od wjazdu,parking/C/C13,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C13
+C14,C,najdalej od wjazdu,parking/C/C14,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C14
+C15,C,najdalej od wjazdu,parking/C/C15,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C15
+C16,C,najdalej od wjazdu,parking/C/C16,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C16
+C17,C,najdalej od wjazdu,parking/C/C17,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C17
+C18,C,najdalej od wjazdu,parking/C/C18,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C18
+C19,C,najdalej od wjazdu,parking/C/C19,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C19
+C20,C,najdalej od wjazdu,parking/C/C20,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C20
+C21,C,najdalej od wjazdu,parking/C/C21,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C21
+C22,C,najdalej od wjazdu,parking/C/C22,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C22
+C23,C,najdalej od wjazdu,parking/C/C23,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C23
+C24,C,najdalej od wjazdu,parking/C/C24,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C24
+C25,C,najdalej od wjazdu,parking/C/C25,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C25
+C26,C,najdalej od wjazdu,parking/C/C26,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C26
+C27,C,najdalej od wjazdu,parking/C/C27,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C27
+C28,C,najdalej od wjazdu,parking/C/C28,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C28
+C29,C,najdalej od wjazdu,parking/C/C29,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C29
+C30,C,najdalej od wjazdu,parking/C/C30,ultradźwiękowy + ESP32 (w prototypie symulator),czujnik-C30

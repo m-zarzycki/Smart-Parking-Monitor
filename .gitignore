@@ -1,0 +1,31 @@
+# Sekrety i konfiguracja lokalna – nigdy w repozytorium ani w oddanej paczce
+.env
+mosquitto/config/passwd
+mosquitto/config/passwd.backup.*
+mosquitto/config/certs/
+firmware/**/secrets.h
+azure/functionapp/local.settings.json
+
+# Dane uruchomieniowe
+data/parking.db
+*.db
+*.db-wal
+*.db-shm
+data/logi/symulator_*.csv
+mosquitto/data/
+
+# Paczki Azure generowane skryptem
+azure/functionapp/parking/
+azure/webapp/parking/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# System i edytory
+.DS_Store
+.idea/
+~$*

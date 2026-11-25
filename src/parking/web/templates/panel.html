@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Panel zarządcy{% endblock %}
+{% block content %}
+<meta name="csrf-token" content="{{ csrf_token() }}" id="csrf">
+<h1>Panel zarządcy</h1>
+<section class="card">
+  <h2>Aktywne alerty o braku danych <span class="badge" id="alert-count">0</span></h2>
+  <table class="tbl" id="alerts">
+    <thead><tr><th>Miejsce</th><th>Ostatni komunikat</th><th>Alert od</th><th>Potwierdzenie</th><th></th></tr></thead>
+    <tbody><tr><td colspan="5">Ładowanie…</td></tr></tbody>
+  </table>
+  <p class="hint">Potwierdzenie nie zmienia stanu miejsca. Alert zamyka pierwszy nowy komunikat od czujnika.</p>
+</section>
+<section class="card">
+  <h2>Wolne miejsca w strefach – ostatnie 7 dni</h2>
+  <div id="chart" class="chart" role="img" aria-label="Wykres liczby wolnych miejsc w strefach A, B, C"></div>
+  <p class="hint" id="chart-note"></p>
+  {% if synthetic %}<p class="hint">Uwaga: baza zawiera syntetyczne próbki obłożenia do demonstracji wykresu ({{ synthetic }}), wygenerowane poleceniem <code>python -m parking historia-demo</code>.</p>{% endif %}
+</section>
+<div class="grid2">
+  <section class="card">
+    <h2>Ostatnie zmiany stanu</h2>
+    <table class="tbl small" id="history"><thead><tr><th>Czas zmiany</th><th>Miejsce</th><th>Nowy stan</th><th>Źródło</th></tr></thead><tbody></tbody></table>
+  </section>
+  <section class="card">
+    <h2>Odrzucone komunikaty</h2>
+    <table class="tbl small" id="rejected"><thead><tr><th>Odebrano</th><th>Powód</th><th>Szczegóły</th><th>Źródło</th></tr></thead><tbody></tbody></table>
+  </section>
+</div>
+<section class="card">
+  <h2>Zamknięte alerty</h2>
+  <table class="tbl small" id="closed"><thead><tr><th>Miejsce</th><th>Ostatni komunikat</th><th>Otwarty</th><th>Zamknięty</th><th>Przerwa</th><th>Potwierdził</th></tr></thead><tbody></tbody></table>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='panel.js') }}"></script>{% endblock %}
